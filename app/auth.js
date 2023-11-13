@@ -1,3 +1,6 @@
+const adminuser = 'admin'
+const adminpassword = 'admin'
+
 
 // adicionar função de enviar com a tecla ENTER
 addEventListener("keyup", function (event) {
@@ -7,10 +10,6 @@ addEventListener("keyup", function (event) {
 });
 
 // função de login
-import {adminpassword, adminuser} from "/data.js"
-
-
-
 
 function auth() {
   const u = document.getElementById("user").value;
