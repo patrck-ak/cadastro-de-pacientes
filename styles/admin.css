@@ -6,10 +6,20 @@
 body {
   display: flex;
   justify-content: center;
+  background: rgb(36, 36, 36);
 }
 
-.box {
+.box-login {
   position: absolute;
   top: 30vh;
   width: 30vw;
+}
+
+label {
+  color: #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 1em;
 }/*# sourceMappingURL=admin.css.map */
